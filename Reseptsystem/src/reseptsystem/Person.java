@@ -1,10 +1,6 @@
 
 package reseptsystem;
 
-/**
- *
- * @author HansChristian
- */
 public class Person {
 
     private String navn;
@@ -15,15 +11,16 @@ public class Person {
         fødselsdato = f;
     }
 
+    public String getNavn() {
+            return navn;
+    }
     
-//  < get-metode for navn >
-//
-//  < get-metode for fødselsdato >
-    
-    
+    public String getFdato(){
+        return fødselsdato;
+    }
     
     public String toString() {
-//    < Metoden skal returnere navn og fødselsdato i form av tekst. >
+        String utskrift = "Navn " + navn + "og fødselsdato" + fødselsdato;
+        return utskrift;
     }
-
 }
