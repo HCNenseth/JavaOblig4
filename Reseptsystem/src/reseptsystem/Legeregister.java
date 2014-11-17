@@ -11,4 +11,12 @@ package reseptsystem;
  */
 public class Legeregister {
     
-}
+    private Lege[] leger;
+
+//  public Legeregister( Lege[] l ){ ... }
+//
+//  public Lege[] getLeger(){ ... }
+//
+//  < Andre metoder du ikke vil får bruk for i denne oppgaven >
+
+}// end of class Legeregister
